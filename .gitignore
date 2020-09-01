@@ -1,0 +1,10 @@
+HELP.md
+
+### Node JS ###
+
+/sass/
+/node-modules/
+
+### VS Code ###
+.vscode/
+/bin/

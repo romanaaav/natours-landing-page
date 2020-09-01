@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanaaav/natours-landing-page.git"
+  },
+  "author": "Roman Alicando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanaaav/natours-landing-page/issues"
+  },
+  "homepage": "https://github.com/romanaaav/natours-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
