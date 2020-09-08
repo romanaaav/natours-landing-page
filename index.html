@@ -131,7 +131,7 @@
             </div>
         </section>
 
-        <section class="section-tours">
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Most popular tours
@@ -168,7 +168,7 @@
                                     <p class="card__price-value">
                                         $297
                                     </p>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@
                                     <p class="card__price-value">
                                         $497
                                     </p>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
                                     <p class="card__price-value">
                                         $897
                                     </p>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -273,14 +273,16 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/nat-8.jpg" alt="Person on a tour" class="story__image"> 
+                        <img src="img/nat-8.jpg" alt="Person on a tour" class="story__image">
                         <figcaption class="story__caption">Mary Smith</figcaption>
                     </figure>
                     <div class="story__text">
                         <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatibus ratione incidunt
-                            quod ab recusandae debitis ipsam provident mollitia, rerum beatae, eveniet quo! Dicta similique
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatibus ratione
+                            incidunt
+                            quod ab recusandae debitis ipsam provident mollitia, rerum beatae, eveniet quo! Dicta
+                            similique
                             est eligendi. Suscipit, obcaecati neque!
                         </p>
                     </div>
@@ -289,14 +291,16 @@
             <div class="row">
                 <div class="story">
                     <figure class="story__shape">
-                        <img src="img/nat-9.jpg" alt="Person on a tour" class="story__image"> 
+                        <img src="img/nat-9.jpg" alt="Person on a tour" class="story__image">
                         <figcaption class="story__caption">Jack Wilson</figcaption>
                     </figure>
                     <div class="story__text">
                         <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completely different now</h3>
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatibus ratione incidunt
-                            quod ab recusandae debitis ipsam provident mollitia, rerum beatae, eveniet quo! Dicta similique
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis voluptatibus ratione
+                            incidunt
+                            quod ab recusandae debitis ipsam provident mollitia, rerum beatae, eveniet quo! Dicta
+                            similique
                             est eligendi. Suscipit, obcaecati neque!
                         </p>
                     </div>
@@ -351,7 +355,7 @@
             </div>
         </section>
     </main>
-        <!--
+    <!--
 
         
         <section class="grid-test">
@@ -436,11 +440,41 @@
         </div>
         <div class="col-1-of-2">
             <p class="footer__copyright">
-                Built by <a href="#" class="footer__link">Roman Alicando</a> for a bootcamp course integration using advanced CSS SASS.
+                Built by <a href="#" class="footer__link">Roman Alicando</a> for a bootcamp course integration using
+                advanced CSS SASS.
                 Design idea from <a href="#" class="footer__link">Jonas Schmedtmann</a>.
             </p>
         </div>
     </div>
 </footer>
+
+<div class="popup" id="popup">
+    <div class="popup__content">
+        <div class="popup__left">
+            <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+            <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        </div>
+        <div class="popup__right">
+            <a href="#section-tours" class="popup__close">&times;</a>
+            <h2 class="heading-secondary u-margin-bottom-small">
+                Start booking now
+            </h2>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+                Important &ndash; Please read these terms before booking
+            </h3>
+            <p class="popup__text">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit lectus, proin dapibus netus tellus non faucibus
+                id nibh, dis pharetra eleifend gravida feugiat suspendisse dui. Habitant euismod platea sagittis dictum
+                ligula ornare nisi lectus, aenean integer penatibus fusce purus vulputate quam, hendrerit cum rutrum
+                pretium habitasse quisque rhoncus. Sed ultricies torquent aptent primis facilisi duis maecenas
+                porttitor, scelerisque mattis ridiculus litora dictumst etiam netus, suscipit per tortor ligula class
+                sociosqu volutpat. Ut auctor dignissim venenatis orci sem accumsan feugiat neque bibendum porta eros,
+                ultricies rutrum diam tellus primis varius torquent ullamcorper sollicitudin maecenas, hac sagittis
+                himenaeos augue ac vivamus nostra parturient rhoncus magnis.
+            </p>
+            <a href="#" class="btn btn--green">Book now</a>
+        </div>
+    </div>
+</div>
 
 </html>
