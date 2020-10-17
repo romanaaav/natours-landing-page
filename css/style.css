@@ -463,6 +463,15 @@ body {
   }
 }
 
+@media (max-width: 37.5em) {
+  .composition__photo--p3 {
+    top: 1rem;
+    left: -.5rem;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
 .composition__photo:hover {
   outline: 1.5rem solid #55c57a;
   -webkit-transform: scale(1.05) translateY(-0.5rem);
