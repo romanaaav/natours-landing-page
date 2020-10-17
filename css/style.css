@@ -760,8 +760,8 @@ body {
 
 @media (max-width: 37.5em) {
   .story {
-    -webkit-transform: skewX();
-            transform: skewX();
+    -webkit-transform: skewX(0);
+            transform: skewX(0);
   }
 }
 
